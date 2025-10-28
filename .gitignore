@@ -1,0 +1,26 @@
+# Node
+node_modules/
+.npmrc
+pnpm-lock.yaml
+yarn.lock
+package-lock.json
+.next/
+.DS_Store
+out/
+
+# Python
+__pycache__/
+*.pyc
+
+# Data artifacts
+ml/artifacts/*.onnx
+ml/artifacts/*.txt
+ml/artifacts/*.csv
+ml/artifacts/*.json
+ml/artifacts/*.parquet
+
+# Environment
+.env
+.env.*
+!.env.example
+*.log
