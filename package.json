@@ -1,0 +1,15 @@
+{
+  "name": "bear-predictor",
+  "private": true,
+  "workspaces": [
+    "apps/web"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=@bear-predictor/web",
+    "build": "npm run build --workspace=@bear-predictor/web",
+    "start": "npm run start --workspace=@bear-predictor/web",
+    "lint": "npm run lint --workspace=@bear-predictor/web",
+    "test": "npm run test --workspace=@bear-predictor/web",
+    "format": "npm run format --workspace=@bear-predictor/web"
+  }
+}
